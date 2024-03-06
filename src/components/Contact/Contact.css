@@ -1,0 +1,30 @@
+.contact{
+    padding: 10vh 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-info{
+    width: 40vw;
+}
+
+.contact-info svg{
+    width: 20vw;
+}
+
+@media (max-width: 1050px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .contact-info{
+        width: 80vw;
+    }
+}

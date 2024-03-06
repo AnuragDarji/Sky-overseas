@@ -1,0 +1,29 @@
+.feature {
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f4f2f5;
+  width: 53vw;
+  /* text-align: center; */
+}
+
+.feature span {
+  float: right;
+  color: #764af1;
+}
+
+.feature p {
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.dropdown-container.open .dropdown-content {
+  display: block;
+}
+
+@media (max-width: 1250px){
+  .feature{
+    width: 80vw;
+  }
+}

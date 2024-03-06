@@ -1,0 +1,17 @@
+.footer {
+  padding: 15px 5vw;
+  background-color: black;
+  text-align: center;
+}
+
+.footer p {
+  background-color: black;
+  font-size: 1rem;
+  color: rgb(156, 156, 156);
+  transition: all 0.4s ease;
+}
+
+.footer p:hover {
+  color: #764af1;
+  cursor: pointer;
+}

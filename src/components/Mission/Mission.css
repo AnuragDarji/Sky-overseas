@@ -1,0 +1,36 @@
+.wrap-mission{
+    width: 100%;
+    margin: auto;
+    padding: 10vh 5vw;
+    background-color: white;
+}
+
+.mission-container{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.mission-content{
+    width: 50vw;
+}
+
+.mission-container svg{
+    width: 180px;
+    background-color: white;
+}
+
+@media (max-width: 1050px){
+    .mission-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mission-content{
+        width: 80vw;
+        text-align: center;
+    }
+}

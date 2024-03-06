@@ -1,0 +1,20 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vh 5vw;
+}
+
+.navbar-container ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1050px){
+    .navbar-container{
+        display: none;
+    }
+}

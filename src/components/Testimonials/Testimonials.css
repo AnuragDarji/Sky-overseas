@@ -1,0 +1,19 @@
+.testimonials{
+    padding: 10vh 5vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials svg{
+    background-color: white;
+    width: 200px;
+}
+
+.testimonials-content{
+    width: 70vw;
+    margin: auto;
+    background-color: white;
+}

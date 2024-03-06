@@ -1,0 +1,26 @@
+.welcome-conatainer {
+  width: 100%;
+  padding: 0vh 5vw 10vh 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+@media (max-width: 1050px) {
+  .welcome-conatainer {
+    padding: 10vh 5vw;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .welcome-conatainer div{
+    margin: auto;
+  }
+
+  .welcome-content{
+    width: 80vw;
+    text-align: center;
+  }
+}
